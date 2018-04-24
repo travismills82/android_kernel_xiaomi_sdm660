@@ -907,7 +907,7 @@ int32_t msm_sensor_driver_probe(void *setting,
 			s_ctrl->sensordata->cam_slave_info->sensor_id_info.sensor_id) &&
 			(slave_info->vendor_id_info.vendor_id ==
 			s_ctrl->sensordata->cam_slave_info->vendor_id_info.vendor_id)) {
-			pr_err("slot%d: sensor id%d already probed\n",
+			pr_err("slot%d: sensor name: %s sensor id%d already probed\n",
 				slave_info->camera_id,
 				slave_info->sensor_name,
 				s_ctrl->sensordata->cam_slave_info->
