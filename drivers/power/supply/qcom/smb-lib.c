@@ -4319,7 +4319,7 @@ static void smblib_handle_typec_insertion(struct smb_charger *chg)
 
 	if (chg->typec_status[3] & UFP_DFP_MODE_STATUS_BIT) {
 		typec_sink_insertion(chg);
-	else {
+	} else {
 		typec_sink_removal(chg);
 		rc = smblib_get_prop_usb_present(chg, &val);
 		if (rc < 0) {
