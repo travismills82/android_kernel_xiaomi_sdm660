@@ -412,3 +412,17 @@
 		qcom,thermal-node;
 	};
 };
+
+&firmware {
+	android {
+		fstab {
+			vendor {
+				dev = "/dev/block/platform/soc/c0c4000.sdhci/by-name/cust";
+			};
+
+			system {
+				dev = "/dev/block/platform/soc/c0c4000.sdhci/by-name/system";
+			};
+		};
+	};
+};
