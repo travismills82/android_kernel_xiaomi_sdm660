@@ -19,7 +19,7 @@ DTS_DIR=$BUILDING_DIR/arch/arm64/boot/dts/qcom
 KERNEL_DIR=$ROOT_DIR/kernel-prebuilt
 TEMP_DIR=$OUT_DIR/temp
 
-DEFCONFIG=$1/lineageos_jason_defconfig
+DEFCONFIG=$1/jason_defconfig
 
 FUNC_PRINT()
 {
